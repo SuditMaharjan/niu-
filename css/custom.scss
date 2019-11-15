@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap');
 
 $color:(
-    primary: #2A2A33,
+    primary: #2A2A33, // rgba(42, 42, 51, 1)
     secondary: #348090
 );
 
@@ -135,5 +135,82 @@ header{
             margin-left: 50px;
             text-align: justify;
         }
+    }
+}
+
+.confidence{
+    height: 500px;
+    background: linear-gradient(left, rgba(42, 42, 51, 0.9), rgba(42, 42, 51, 0)), url(../images/bg2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    ul{
+        list-style: none;
+        li{
+            height: 40px;
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+            svg{
+                fill: color(secondary);
+                height: 40px;
+                width: 40px;
+                transform: rotate(270deg);
+                margin-right: 20px;
+            }
+            span{
+                font-size: 16px;
+                color: white;
+                font-weight: 300;
+            }
+        }
+    }
+}
+
+.features{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    svg{
+        height: 100px;
+        width: 100px;
+        fill: color(secondary);
+        margin-bottom: 20px;
+        transition: .5s;
+    }
+    span,p{
+        color: white;
+    }
+    p{
+        font-weight: 600;
+    }
+    span{
+        font-size: 12px;
+        font-weight: 300;
+    }
+    div{
+        padding: 50px 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    div:first-child{
+        background: color(primary);
+    }
+    div:nth-child(2){
+        background: rgba(42, 42, 51, 0.9);
+    }
+    div:nth-child(3){
+        background: rgba(42, 42, 51, 0.8);
+    }
+    div:nth-child(4){
+        background: rgba(42, 42, 51, 0.7);
+    }
+    div:hover svg{
+        transform: scale(1.2);
     }
 }

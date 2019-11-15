@@ -163,4 +163,120 @@ header .navbar .navbar-nav a {
   margin-left: 50px;
   text-align: justify;
 }
+
+.confidence {
+  height: 500px;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(42, 42, 51, 0.9)), to(rgba(42, 42, 51, 0))), url(../images/bg2.jpg);
+  background: linear-gradient(left, rgba(42, 42, 51, 0.9), rgba(42, 42, 51, 0)), url(../images/bg2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.confidence ul {
+  list-style: none;
+}
+
+.confidence ul li {
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px;
+}
+
+.confidence ul li svg {
+  fill: #348090;
+  height: 40px;
+  width: 40px;
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+  margin-right: 20px;
+}
+
+.confidence ul li span {
+  font-size: 16px;
+  color: white;
+  font-weight: 300;
+}
+
+.features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+}
+
+.features svg {
+  height: 100px;
+  width: 100px;
+  fill: #348090;
+  margin-bottom: 20px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.features span, .features p {
+  color: white;
+}
+
+.features p {
+  font-weight: 600;
+}
+
+.features span {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.features div {
+  padding: 50px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.features div:first-child {
+  background: #2A2A33;
+}
+
+.features div:nth-child(2) {
+  background: rgba(42, 42, 51, 0.9);
+}
+
+.features div:nth-child(3) {
+  background: rgba(42, 42, 51, 0.8);
+}
+
+.features div:nth-child(4) {
+  background: rgba(42, 42, 51, 0.7);
+}
+
+.features div:hover svg {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
 /*# sourceMappingURL=custom.css.map */
