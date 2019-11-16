@@ -112,6 +112,8 @@ header{
     height: 400px;
     background: color(primary);
     display: flex;
+    width: 100%;
+    overflow: hidden;
     position: relative;
     .container{
         height: 200px;
