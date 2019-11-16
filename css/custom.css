@@ -59,6 +59,12 @@ header .navbar .navbar-nav a {
   font-weight: 300;
 }
 
+header .navbar .navbar-nav .app {
+  background: #348090;
+  color: white;
+  border-radius: 5px;
+}
+
 .top_section {
   background: url(../images/bg1.jpg);
   height: calc(100vh - 60px);
@@ -285,6 +291,28 @@ header .navbar .navbar-nav a {
 .features div:hover svg {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
+}
+
+.contact_map {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact_map .contact {
+  padding: 50px;
+}
+
+.contact_map .contact h1 {
+  color: #348090;
+  padding: 10px 0;
+}
+
+.contact_map .contact p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #2A2A33;
+  opacity: 0.8;
 }
 
 footer {
