@@ -192,6 +192,8 @@ header .navbar .navbar-nav a {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 30px;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 
 .confidence ul li svg {
@@ -207,6 +209,11 @@ header .navbar .navbar-nav a {
   font-size: 16px;
   color: white;
   font-weight: 300;
+}
+
+.confidence ul li:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .features {
@@ -278,5 +285,70 @@ header .navbar .navbar-nav a {
 .features div:hover svg {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
+}
+
+footer {
+  background: #2A2A33;
+}
+
+footer .c1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .news {
+  padding: 20px;
+  padding-top: 40px;
+  text-align: center;
+}
+
+footer .news label {
+  color: white;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+footer .news input[type="submit"] {
+  background: #348090;
+  color: white;
+  outline: none;
+  border: none;
+  font-weight: 300;
+  padding: 3px;
+}
+
+footer .news ::-webkit-input-placeholder {
+  opacity: 0.7;
+  font-size: 14px;
+}
+
+footer .news :-ms-input-placeholder {
+  opacity: 0.7;
+  font-size: 14px;
+}
+
+footer .news ::-ms-input-placeholder {
+  opacity: 0.7;
+  font-size: 14px;
+}
+
+footer .news ::placeholder {
+  opacity: 0.7;
+  font-size: 14px;
+}
+
+footer .social_media {
+  padding: 20px;
+}
+
+footer .social_media svg {
+  margin: 10px 20px;
+  width: 30px;
+  height: 30px;
+  fill: #348090;
 }
 /*# sourceMappingURL=custom.css.map */
