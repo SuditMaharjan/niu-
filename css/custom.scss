@@ -112,13 +112,20 @@ header{
     height: 400px;
     background: color(primary);
     display: flex;
-    align-items: center;
+    position: relative;
     .container{
         height: 200px;
         display: flex;
         align-items: center;
+        justify-content: center;
         img{
+            position: absolute;
             height: 200px;
+            bottom: 40px;
+            animation: ride ease-in-out;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            left: -10vw;
         }
         h1{
             text-align: center;
@@ -126,6 +133,15 @@ header{
             font-weight: 300;
             font-size: 40px;
         }
+    }
+}
+
+@keyframes ride{
+    from{
+        transform: translateX(-10vw);
+    }
+    to{
+        transform: translateX(110vw);
     }
 }
 
