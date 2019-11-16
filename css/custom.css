@@ -74,12 +74,42 @@ header .navbar .navbar-nav .app {
   position: relative;
 }
 
-.top_section h1 {
+.top_section .wrapper {
   position: absolute;
-  top: 75%;
+  top: 50%;
   left: 10%;
+}
+
+.top_section h1 {
   font-size: 80px;
   font-weight: 600;
+  color: white;
+}
+
+.top_section p {
+  color: white;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.top_section span {
+  color: white;
+}
+
+.top_section button {
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  font-weight: 300;
+}
+
+.top_section button:first-child {
+  background: white;
+  color: #348090;
+}
+
+.top_section button:nth-child(2) {
+  background: #348090;
   color: white;
 }
 
@@ -117,6 +147,24 @@ header .navbar .navbar-nav .app {
 .quick_follow a:hover img {
   -webkit-box-shadow: 0px 35px 32px -23px rgba(0, 0, 0, 0.6);
   box-shadow: 0px 35px 32px -23px rgba(0, 0, 0, 0.6);
+}
+
+.app_guide img {
+  width: 400px;
+  height: 400px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.app_guide .located, .app_guide .scan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 400px;
+  padding: 10px 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .caption {
