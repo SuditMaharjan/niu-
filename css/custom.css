@@ -37,13 +37,7 @@ header .navbar {
 
 header .navbar .navbar-brand {
   padding: 0 !important;
-}
-
-header .navbar .navbar-brand img {
-  width: 100px;
-  height: 50px;
-  -o-object-fit: contain;
-     object-fit: contain;
+  color: white;
 }
 
 header .navbar .navbar-nav {
@@ -66,8 +60,8 @@ header .navbar .navbar-nav .app {
 }
 
 .top_section {
-  background: url(../images/bg1.jpg);
-  height: calc(100vh - 60px);
+  background: url(../images/bg3.jpg);
+  height: calc(100vh - 50px);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -193,8 +187,8 @@ header .navbar .navbar-nav .app {
 
 .caption .container img {
   position: absolute;
-  height: 200px;
-  bottom: 40px;
+  height: 300px;
+  bottom: 10px;
   -webkit-animation: ride ease-in-out;
           animation: ride ease-in-out;
   -webkit-animation-duration: 10s;
@@ -254,8 +248,8 @@ header .navbar .navbar-nav .app {
 
 .confidence {
   height: 500px;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(42, 42, 51, 0.9)), to(rgba(42, 42, 51, 0))), url(../images/bg2.jpg);
-  background: linear-gradient(left, rgba(42, 42, 51, 0.9), rgba(42, 42, 51, 0)), url(../images/bg2.jpg);
+  background: -webkit-gradient(linear, left top, right top, from(rgba(42, 42, 51, 0.9)), to(rgba(42, 42, 51, 0))), url(../images/mobikemovement.jpg);
+  background: linear-gradient(left, rgba(42, 42, 51, 0.9), rgba(42, 42, 51, 0)), url(../images/mobikemovement.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

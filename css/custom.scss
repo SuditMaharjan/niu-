@@ -39,11 +39,7 @@ header{
         padding: 5px !important;
         .navbar-brand{
             padding: 0 !important;
-            img{
-                width: 100px;
-                height: 50px;
-                object-fit: contain;
-            }
+           color: white;
         }
         .navbar-nav{
             margin-left: auto;
@@ -64,8 +60,8 @@ header{
 }
 
 .top_section{
-    background: url(../images/bg1.jpg);
-    height: calc(100vh - 60px);
+    background: url(../images/bg3.jpg);
+    height: calc(100vh - 50px);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -160,8 +156,8 @@ header{
         justify-content: center;
         img{
             position: absolute;
-            height: 200px;
-            bottom: 40px;
+            height: 300px;
+            bottom: 10px;
             animation: ride ease-in-out;
             animation-duration: 10s;
             animation-iteration-count: infinite;
@@ -201,7 +197,7 @@ header{
 
 .confidence{
     height: 500px;
-    background: linear-gradient(left, rgba(42, 42, 51, 0.9), rgba(42, 42, 51, 0)), url(../images/bg2.jpg);
+    background: linear-gradient(left, rgba(42, 42, 51, 0.9), rgba(42, 42, 51, 0)), url(../images/mobikemovement.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
